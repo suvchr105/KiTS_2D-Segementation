@@ -1,0 +1,13 @@
+# KiTS23 SOTA Pipeline Requirements
+numpy
+scipy
+nibabel
+SimpleITK
+scikit-image
+opencv-python
+pandas
+h5py
+torch
+torchvision
+torchio
+tqdm

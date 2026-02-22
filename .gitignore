@@ -1,0 +1,34 @@
+# Exclude virtual environments
+kits_env/
+
+# Exclude output and input images and related folders
+KiTS23_2D/images/
+KiTS23_2D/masks/
+KiTS23_2D/masks_visible/
+KiTS23_2D/overlays/
+KiTS23_2D/LR_SR_HR_Output/
+KiTS23_2D/LR_SR_Output/
+KiTS23_2D/output*/
+KiTS23_2D/DATASET_CARD.md
+KiTS23_2D/dataset-metadata.json
+KiTS23_2D/dataset.csv
+KiTS23_2D/metadata/
+KiTS23_2D/splits/
+
+# Exclude common image formats
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tif
+*.tiff
+*.gif
+
+# Exclude Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Exclude Jupyter Notebook checkpoints
+.ipynb_checkpoints/
